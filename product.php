@@ -54,7 +54,7 @@
 	
 					  	?>
 					    	<div class="carousel-item <?php if($isActive) echo 'active'; ?>">
-					      		<img src="images/products/<?php echo $img; ?>" class="d-block w-100" alt="...">
+					      		<img src="images/products/<?php echo $img; ?>" class="d-block w-100" alt="Product Image">
 					    	</div>
 					    <?php $isActive = false; }; ?>
 					  </div>
